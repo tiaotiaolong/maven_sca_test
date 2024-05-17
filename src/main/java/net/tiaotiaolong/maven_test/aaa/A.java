@@ -1,5 +1,6 @@
 package net.tiaotiaolong.maven_test.aaa;
 
+import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 
@@ -22,6 +23,18 @@ public class A {
 
 
         JSONArray jsonArray2=JSONObject.parseArray(abc);
+
+        JSONObject jsonObject3= JSON.parseObject(abc);
+
+
+        JSONArray jsonArray3=JSON.parseArray(abc);
+
+
+        JSONObject jsonObject4=JSON.parseObject(abc);
+
+
+        JSONArray jsonArray4=JSON.parseArray(abc);
+
 
 
 
